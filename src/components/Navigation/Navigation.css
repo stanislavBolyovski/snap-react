@@ -1,0 +1,89 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 18px;
+}
+.menu{
+    position: relative;
+    display: flex;     
+}
+.logo{
+    color: hsl(0, 0%, 8%);
+    font-size: 2.5em;
+    margin-right: 2em;
+}
+ a{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    margin-right: 3rem;
+    font-weight: 600;
+}
+.register a{
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    cursor: pointer;
+}
+.register{
+    display: flex;
+   
+}
+.button{
+    color: hsl(0, 0%, 41%);
+    padding: .8rem 2rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid hsl(0, 0%, 41%);
+}
+button:hover{
+    cursor: pointer;
+}
+i{
+    margin-left: .8rem;
+}
+.hide{
+    display: none;
+}
+li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.opened{
+    position: absolute;
+    top: 3em;
+    display: flex;
+    flex-direction: column;   
+    padding-top: 1rem;
+    border: none;
+    box-shadow: 2px 2px 3px 3px #888888;  
+    background-color: white;  
+}
+.opened a {
+    margin-bottom: 1rem;
+    padding-left: .5rem;   
+    width: max-content;
+}
+.purple{
+    color: #800080;
+}
+.yellow{
+    color: #CCCC00;
+}
+.blue{
+    color: #00BFFF;
+}
+.magenta{
+    color:violet;
+}
+
+

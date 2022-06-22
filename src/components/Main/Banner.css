@@ -1,0 +1,10 @@
+.imgDiv{
+    height: 80vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+}

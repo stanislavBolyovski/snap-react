@@ -1,0 +1,30 @@
+.description{
+    min-width: 30vw;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items: flex-start;
+    font-size: 2rem;
+}
+.description button{
+    width: fit-content;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+}
+p{
+    color: grey;   
+}
+h1{
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 1400px) {
+   p{
+    max-width: 80%;
+   }
+    }
